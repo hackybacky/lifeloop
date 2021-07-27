@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-fluid{
+  padding:0% 5%;
+  
+}
+@media (min-width: 1200px) {
+  .container-fluid,card{
+    font-size: 40px;
+  }
+  
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 600px) {
+  .container-fluid {
+    font-size: 12px;
+  }
+  .form-group{
+    padding:10%;
+  }
+}
+
+.loginc{
+  padding: 2% 2%;
+  width: 60%;
+  margin:7% 20%;
+}
+.link{
+  color:white;
+
+}
+#name {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  
+  outline:none;
+  box-shadow:none;
+}
